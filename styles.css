@@ -4,4 +4,54 @@
     box-sizing: border-box;
   }
 
-  
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  size: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  width: 100vh;
+  align-items: center;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 700px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+img{
+  margin-top: 15px;  
+  width: 90%;
+  border-radius: 5px;
+}
+
+.room-title{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+ul{
+  width: 90%;
+  margin: 10px;
+  padding: 5px;
+  overflow: auto;
+  font-size: 20px;
+}
+
+ul li{
+  margin-bottom: 5px;
+}
