@@ -23,7 +23,7 @@ const roomsList = {
             "🌐 Wi-Fi Premium: Navegação veloz.",
             "🌡️ Climatização Inteligente: Controle total do ambiente."
         ],
-        logo: "2.jpg"
+        logo: "images/2.jpg"
     },
     3: {
         name: "Quarto Econômico",
