@@ -36,7 +36,7 @@ const roomsList = {
             "🌐 Wi-Fi Gratuito: Navegação inclusa.",
             "❄️ Ventilador de Teto: Ideal para dias quentes."
         ],
-        logo: "3.jpg"
+        logo: "images/3.jpg"
     },
     4: {
         name: "Suíte Presidencial",
@@ -49,7 +49,7 @@ const roomsList = {
             "🌐 Wi-Fi Ultra-Rápido: Perfeito para trabalho ou lazer.",
             "🌡️ Controle de Clima Avançado: Ambiente sob medida."
         ],
-        logo: "4.jpg"
+        logo: "images/4.jpg"
     },
     5: {
         name: "Quarto Família",
@@ -62,10 +62,9 @@ const roomsList = {
             "📺 TVs Multipontas: Diversão para todas as idades.",
             "🌐 Wi-Fi Rápido: Ideal para streaming e jogos."
         ],
-        logo: "5.jpg"
+        logo: "images/5.jpg"
     }
 }
-
 
 const content = document.querySelector(".content")
 
@@ -117,3 +116,4 @@ section.appendChild(bookButton)
 article.appendChild(section)
 
 content.appendChild(article)
+
