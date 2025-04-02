@@ -5,12 +5,26 @@
   }
 
 body{
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   size: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+  display: flex;
+  width: 1310px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .title{
@@ -20,10 +34,34 @@ body{
   align-items: center;
 }
 
-.content{
+.main-section{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
+  width: 1360px;
+  margin-bottom: 10px;
+}
+
+.lateral-panel{
+  flex: 1;
+  max-width: 200px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.content-section{
+  display: flex;
+  width: 1090px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 1090px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 article{
@@ -32,8 +70,7 @@ article{
   align-items: center;
   width: 350px;
   height: 700px;
-  margin: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   overflow: hidden;
   font-size: 30px;
@@ -79,7 +116,7 @@ ul li{
 button{
   font-size: 18px;
   height: 50px;
-  width: 120px;
+  width: 130px;
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -88,4 +125,18 @@ button{
 
 button:hover{
   transform: scale(110%);
+}
+
+.room-info-button{
+  font-weight: 500;
+  color: white;
+  background-color: rgb(1, 55, 155);
+  box-shadow: 0 0 10px rgba(1, 55, 155, 0.7);
+}
+
+.book-button{
+  font-weight: 500;
+  color: white;
+  background-color: green;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.7);
 }
