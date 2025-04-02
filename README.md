@@ -4,4 +4,4 @@
 ## Funcionalidades:
 ### Atualização dinâmica da view com JS, através de um objeto com vários quartos de hotel. Simulando um JSON recebido por uma API
 ## Disponibilidade:
-### Em breve esse projeto estará disponível em uma instância EC2 da AWS
+### Em breve esse projeto estará disponível em uma Bucket S3 da AWS
